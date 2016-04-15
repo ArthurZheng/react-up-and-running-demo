@@ -3,9 +3,17 @@ import '../public/css/style.css';
 import ReactDOM from 'react-dom';
 import React from 'react';
 
-import CommentBox from './views/comment_box';
+let CommentBox = React.createClass({
+  render: function(){
+    return (
+      <div className='commentBox'>
+        <h1>Juns CommentBox 1213</h1>
+      </div>
+    )
+  },
+})
 
 ReactDOM.render(
-  <CommentBox url="./comments.json" pollInterval={2000} />,
+  <CommentBox />,
   document.getElementById('content')
 );
