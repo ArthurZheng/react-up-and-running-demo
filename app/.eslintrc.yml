@@ -1,8 +1,8 @@
 ---
 extends: "eslint:recommended"
 rules:
-  comma-dangle: [2, always-multiline]
-  quotes: [2, single]
+  # comma-dangle: [2, always-multiline]
+  # quotes: [2, single]
   no-unused-vars: [2, {vars: all, args: none}]
   no-console: [0]
   react/jsx-uses-vars: [2]
